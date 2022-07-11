@@ -9,7 +9,7 @@ Variables are one character long. Everything that is not an operator is a variab
 
 Avalible operators include:
 
-| Operator       | Char  | Tyoe    |
+| Operator       | Char  | Type    |
 |----------------|-------|---------|
 | Negation/Not   | !     | Unary   |
 | Parentheses    | ( )   | Special |
