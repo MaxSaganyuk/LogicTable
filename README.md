@@ -3,9 +3,9 @@ CLI app that calculates logical equations and creates resulting logic tables. Us
 
 ## How to use?
 
-After running .exe file in the terminal you enter the equation to be calculater.
+After running .exe file in the terminal you enter the equation to be calculated.
 
-Variables are one character long. Everything that is not a variable is an operator (also except whitespace ' '). 
+Variables are one character long. Everything that is not an operator is a variable (also except whitespace ' '). 
 
 Avalible operators include:
 
