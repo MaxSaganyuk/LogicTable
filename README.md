@@ -23,7 +23,7 @@ Sorted from top to bottom by priority
 
 Example: 
 
-Is equivalence of a and b and inverted xor between a and b are the same thing (are equivalent) for every possible a and b
+Equivalence of a and b and inverted xor between a and b are the same thing (are equivalent) for every possible a and b?
 
 <img src="readMe\1.png"></img>
 
