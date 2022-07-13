@@ -216,8 +216,33 @@ void stringB::pop_back(){
     pop_backIBvectTimes(1);
 }
 
+stringB operator+(stringB            lhs, char                rhs){ return (lhs += rhs); }
+stringB operator+(stringB            lhs, const char*         rhs){ return (lhs += rhs); }
+stringB operator+(stringB            lhs, const std::string&  rhs){ return (lhs += rhs); }
+
+stringB operator+(char               lhs, stringB             rhs){ 
+    std::string s;
+    s = lhs;
+    return rhs.insert(0, s); 
+}
+stringB operator+(const char*        lhs, stringB             rhs){ 
+    std::string s;
+    s = lhs;
+    return rhs.insert(0, s);  
+}
+stringB operator+(const std::string& lhs, stringB             rhs){ 
+    std::string s;
+    s = lhs;
+    return rhs.insert(0, s); 
+}
+
 void stringB::printIds() {
     for(int i = 0; i < IBvect.size(); ++i) std::cout << IBvect[i].id << " ";
+    std::cout << "\n";
+}
+
+void stringB::printFlags(){
+    for(int i = 0; i < IBvect.size(); ++i) std::cout << IBvect[i].flag << " ";
     std::cout << "\n";
 }
 
