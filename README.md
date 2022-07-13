@@ -3,13 +3,13 @@ CLI app that calculates logical equations and creates resulting logic tables. Us
 
 ## How to use?
 
-After running .exe file in the terminal you enter the equation to be calculater.
+After running .exe file in the terminal you enter the equation to be calculated.
 
-Variables are one character long. Everything that is not a variable is an operator (also except whitespace ' '). 
+Variables are one character long. Everything that is not an operator is a variable (also except whitespace ' '). 
 
 Avalible operators include:
 
-| Operator       | Char  | Tyoe    |
+| Operator       | Char  | Type    |
 |----------------|-------|---------|
 | Negation/Not   | !     | Unary   |
 | Parentheses    | ( )   | Special |
@@ -22,6 +22,8 @@ Avalible operators include:
 Sorted from top to bottom by priority
 
 Example: 
+
+Equivalence of a and b and inverted xor between a and b are the same thing (are equivalent) for every possible a and b?
 
 <img src="readMe\1.png"></img>
 
